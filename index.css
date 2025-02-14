@@ -1,0 +1,52 @@
+
+
+
+.parent{
+    display: flex;
+    gap: 10px;
+    align-items:center;
+    /* justify-content: center; */
+    color:black;
+    margin-left: 60px;
+    
+    
+}
+
+
+
+.child{
+    width: 300px;
+    height: 400px;
+    border: 1px solid rgb(31, 18, 3);
+    background-color: lightpink;
+    border-radius: 30px;
+    box-shadow: 5px 5px 8px gray;
+    
+   
+}
+.child>h3{
+    padding-left: 115px;
+}
+.child>h4{
+    padding-left: 100px;
+}
+.child>button{
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    /* padding-left: 100px;/ */
+}
+
+.child>img{
+    width: 200px;
+    padding-top: 35px;
+    padding-left: 45px;
+    
+}
+
+.children{
+    margin-top:50px;
+    padding-left:90px;
+}
+   
+
